@@ -15,7 +15,7 @@ export const SHOP = {
     { open: 9, close: 20 }, // Friday
     { open: 9, close: 17 }, // Saturday
   ] as ({ open: number; close: number } | null)[],
-  slotMinutes: 30,
+  slotMinutes: 60,
   bookableDaysAhead: 21,
 } as const;
 
