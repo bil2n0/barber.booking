@@ -15,7 +15,7 @@ var HEADERS = ['id', 'clientName', 'phone', 'serviceId', 'date', 'time', 'status
 var SERVICE_IDS = ['cut', 'skin-fade', 'beard', 'shave', 'cut-beard', 'junior'];
 // Opening hours by weekday, 0 = Sunday ... 6 = Saturday. null = closed. [openHour, closeHour]
 var SHOP_HOURS = [null, null, [9, 19], [9, 19], [9, 19], [9, 20], [9, 17]];
-var SLOT_MINUTES = 30;
+var SLOT_MINUTES = 60;
 var BOOKABLE_DAYS_AHEAD = 60;
 
 var SESSION_SECONDS = 6 * 60 * 60; // 6 h (the maximum Apps Script cache allows)
